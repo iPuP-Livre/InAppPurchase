@@ -15,6 +15,10 @@
 		E0102E81150BCCE8003B0038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102E80150BCCE8003B0038 /* AppDelegate.m */; };
 		E0102E84150BCCE8003B0038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102E83150BCCE8003B0038 /* ViewController.m */; };
 		E0102E87150BCCE8003B0038 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0102E85150BCCE8003B0038 /* ViewController.xib */; };
+		E0102E92150BCD1E003B0038 /* InAppPurchaseStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102E91150BCD1E003B0038 /* InAppPurchaseStoreManager.m */; };
+		E0102E94150BCD37003B0038 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0102E93150BCD37003B0038 /* StoreKit.framework */; };
+		E0102E97150BCE46003B0038 /* IAPProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102E96150BCE46003B0038 /* IAPProduct.m */; };
+		E0102E9A150CF68A003B0038 /* StoreDisplayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102E99150CF68A003B0038 /* StoreDisplayTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,22 @@
 		E0102E70150BCCE8003B0038 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0102E72150BCCE8003B0038 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0102E74150BCCE8003B0038 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E0102E78150BCCE8003B0038 /* InAppPurchase-Info.plist */ = {isa = PBXFileReference; path = "InAppPurchase-Info.plist"; sourceTree = "<group>"; };
+		E0102E78150BCCE8003B0038 /* InAppPurchase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InAppPurchase-Info.plist"; sourceTree = "<group>"; };
 		E0102E7A150BCCE8003B0038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0102E7C150BCCE8003B0038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0102E7E150BCCE8003B0038 /* InAppPurchase-Prefix.pch */ = {isa = PBXFileReference; path = "InAppPurchase-Prefix.pch"; sourceTree = "<group>"; };
-		E0102E7F150BCCE8003B0038 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0102E7E150BCCE8003B0038 /* InAppPurchase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InAppPurchase-Prefix.pch"; sourceTree = "<group>"; };
+		E0102E7F150BCCE8003B0038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0102E80150BCCE8003B0038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0102E82150BCCE8003B0038 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E0102E82150BCCE8003B0038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0102E83150BCCE8003B0038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0102E86150BCCE8003B0038 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E0102E90150BCD1E003B0038 /* InAppPurchaseStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseStoreManager.h; sourceTree = "<group>"; };
+		E0102E91150BCD1E003B0038 /* InAppPurchaseStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseStoreManager.m; sourceTree = "<group>"; };
+		E0102E93150BCD37003B0038 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E0102E95150BCE46003B0038 /* IAPProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPProduct.h; sourceTree = "<group>"; };
+		E0102E96150BCE46003B0038 /* IAPProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPProduct.m; sourceTree = "<group>"; };
+		E0102E98150CF68A003B0038 /* StoreDisplayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreDisplayTableViewController.h; sourceTree = "<group>"; };
+		E0102E99150CF68A003B0038 /* StoreDisplayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreDisplayTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0102E94150BCD37003B0038 /* StoreKit.framework in Frameworks */,
 				E0102E71150BCCE8003B0038 /* UIKit.framework in Frameworks */,
 				E0102E73150BCCE8003B0038 /* Foundation.framework in Frameworks */,
 				E0102E75150BCCE8003B0038 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +79,7 @@
 		E0102E6F150BCCE8003B0038 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0102E93150BCD37003B0038 /* StoreKit.framework */,
 				E0102E70150BCCE8003B0038 /* UIKit.framework */,
 				E0102E72150BCCE8003B0038 /* Foundation.framework */,
 				E0102E74150BCCE8003B0038 /* CoreGraphics.framework */,
@@ -77,11 +90,17 @@
 		E0102E76150BCCE8003B0038 /* InAppPurchase */ = {
 			isa = PBXGroup;
 			children = (
+				E0102E95150BCE46003B0038 /* IAPProduct.h */,
+				E0102E96150BCE46003B0038 /* IAPProduct.m */,
+				E0102E90150BCD1E003B0038 /* InAppPurchaseStoreManager.h */,
+				E0102E91150BCD1E003B0038 /* InAppPurchaseStoreManager.m */,
 				E0102E7F150BCCE8003B0038 /* AppDelegate.h */,
 				E0102E80150BCCE8003B0038 /* AppDelegate.m */,
 				E0102E82150BCCE8003B0038 /* ViewController.h */,
 				E0102E83150BCCE8003B0038 /* ViewController.m */,
 				E0102E85150BCCE8003B0038 /* ViewController.xib */,
+				E0102E98150CF68A003B0038 /* StoreDisplayTableViewController.h */,
+				E0102E99150CF68A003B0038 /* StoreDisplayTableViewController.m */,
 				E0102E77150BCCE8003B0038 /* Supporting Files */,
 			);
 			path = InAppPurchase;
@@ -163,6 +182,9 @@
 				E0102E7D150BCCE8003B0038 /* main.m in Sources */,
 				E0102E81150BCCE8003B0038 /* AppDelegate.m in Sources */,
 				E0102E84150BCCE8003B0038 /* ViewController.m in Sources */,
+				E0102E92150BCD1E003B0038 /* InAppPurchaseStoreManager.m in Sources */,
+				E0102E97150BCE46003B0038 /* IAPProduct.m in Sources */,
+				E0102E9A150CF68A003B0038 /* StoreDisplayTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
